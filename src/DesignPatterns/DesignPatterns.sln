@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Adapter.Structure", "DesignPatterns.Adapter.Structure\DesignPatterns.Adapter.Structure.csproj", "{3314E18F-A9B5-496B-9128-A01025FEDB12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{A8657E82-236F-4EEE-853B-5244D8793C94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Adapter.Real", "DesignPatterns.Adapter.Real\DesignPatterns.Adapter.Real.csproj", "{DC526D48-8964-4B50-A583-1734023D2D79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3314E18F-A9B5-496B-9128-A01025FEDB12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3314E18F-A9B5-496B-9128-A01025FEDB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3314E18F-A9B5-496B-9128-A01025FEDB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3314E18F-A9B5-496B-9128-A01025FEDB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC526D48-8964-4B50-A583-1734023D2D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC526D48-8964-4B50-A583-1734023D2D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC526D48-8964-4B50-A583-1734023D2D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC526D48-8964-4B50-A583-1734023D2D79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3314E18F-A9B5-496B-9128-A01025FEDB12} = {A8657E82-236F-4EEE-853B-5244D8793C94}
+		{DC526D48-8964-4B50-A583-1734023D2D79} = {A8657E82-236F-4EEE-853B-5244D8793C94}
+	EndGlobalSection
+EndGlobal
